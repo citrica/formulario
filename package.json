@@ -1,0 +1,25 @@
+{
+    "name": "formulario",
+    "version": "1.0.0",
+    "description": "Práctica 1 - Formulario",
+    "main": "index.js",
+    "scripts": {
+        "start": "rimraf dist && parcel ./src/index.html --open",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/citrica/formulario.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/citrica/formulario/issues"
+    },
+    "homepage": "https://github.com/citrica/formulario#readme",
+    "devDependencies": {
+        "parcel": "^2.0.0-beta.2",
+        "rimraf": "^3.0.2"
+    }
+}
